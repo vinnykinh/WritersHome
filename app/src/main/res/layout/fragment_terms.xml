@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_page"
+    tools:context=".TermsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableLeft="@drawable/back_24"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Back"
+            android:textColor="@color/black"
+
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="14dp"
+            android:text="TERMS AND CONDITIONS"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The following list or terms and conditions shall be treated as a formal agreement between the first party, hereafter will be known as, company and second party, hereafter may be known as Tutor/freelancer/expert"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="1. COMMUNICATION"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="All communications (confirmation/refusal/clarification/submission/completion/query/) must be done through tutor / expert interface account ONLY unless otherwise specified"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="2. WORK COMPLETION"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Once an assignment has been confirmed and allocated to the freelancer and the assignment is submitted post the deadline, the company DOES NOT guarantee payment for that particular assignment."
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TableLayout
+            android:id="@+id/tablelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@color/background"
+            android:elevation="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Deductions"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Issue in detail"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="10%-100%"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Delay in submitting the solution.
+Typically given a margin of a couple of hours before this deduction is applied, though not always
+"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="3. WORK-IN-PROGRESS/PARTIAL SUBMISSION/FULL SUBMISSION/ONLINE SUBMISSION:"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Regular Work-In-Progress whenever mentioned and for longer deadline is a must
+Once any expert once submits any content, any analytical solution, an executable file, any audio or video file, but not limited to, then the submission comes under the rightful access of the company and thereafter downloading / usage of the same without permission will stand illegal
+If any expert/tutor/freelancer found involved in downloading or illegal usage of content, information, knowledge bank, or anything else, which belongs to the company or platform and which is not permitted by the company, then, the company shall be bound to claim compensation as per the value deems fit for the information or knowledge bank
+"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="4.	DROPPING ASSIGNMENTS (Cancellation):"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="In case a tutor/expert/freelancer is unable to do any assignment confirmed earlier, a penalty may be levied, depending upon how soon the information regarding the same is communicated. It shall be liable for penalty in the following manner"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <TableLayout
+            android:id="@+id/tabelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@color/background"
+            android:elevation="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Deductions"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Issue in detail"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="10%-50%"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Based on criticality and time left in submission/time from allocation and task urgency"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. REQUIREMENTS NOT MET"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="All assignments must be completed as per the mentioned requirements and as per the specifications of the given task.
+Word Limit: The word limit mentioned does not include the references, in-text citations and table of contents. Deviation of +/- 5% of the word count is permissible (however if client wants full words, then you must provide it).
+Screenshots: Provide Screen shots of simulation execution/running programs wherever necessary In case of deviation from requirements, penalties are applicable in the following manner
+"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <TableLayout
+            android:id="@+id/tblayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@color/background"
+            android:elevation="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Issue Type"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Issue in detail"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Requirements not met"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Questions/Headings/Parts intentionally missed
+or Not approached the topic directly/ beating around the bush
+"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Irrelevant Information"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Repeated use of same ideas/words to act as filler
+or Excessive use of theories with no critical analysis
+"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </TableRow>
+
+
+        </TableLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="6. BASIC QUALITY ISSUES"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="All freelancers/experts are expected to adhere to strictest standards of working.
+Penalty shall be levied as the case may be
+"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TableLayout
+            android:id="@+id/tblaut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@color/background"
+            android:elevation="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Issue Type"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Issue in detail"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Grammar/Sentence structure"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Proofreading not done before submission
+Amateur sentence construction
+Convoluted presentation of ideas
+"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Referencing issue"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Improper referencing - Using referencing where not required
+References missing - Citing data/fact/theory/law/rule/ boroughed idea without reference
+Irrelevant referencing - Adding references not related to the context
+Incorrect referencing - incorrect format/incorrect edition/incorrect reference type
+"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Formatting Issue"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Minor issues related with format change"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </TableRow>
+
+
+        </TableLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7. FAIL GRADES:"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="In case the student claims to receive failed grades or incorrect solutions in a particular assignment completed by an expert, the payment for the same shall NOT be done to the tutor. In case the payment for the same is already released, it shall be deducted in the current/future invoices. Apart from this a penalty shall be levied in following cases"
+
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@color/background"
+            android:elevation="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Issue Type"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Issue in detail"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Failed* NO PAY"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Client has failed the order"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="8. REWORK/CORRECTIONS:"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tutor/ expert must revise the assignment as per the feedback within 12 hours or lesser as communicated. Shorter deadlines assignment shall have shorter time for correction and hence they must be dealt with top priority on receiving intimation regarding it. Failure to provide correction within the time frame mentioned above may lead to cancellation of the assignment and application of clause 2 depending on severity of the case.
+a. Submission of rework/correction MUST be clearly highlighted. Failure to highlight the
+b.  Correction shall deem the submission as incomplete, and be governed by Policy for handling Superficial Amendments
+c. Multiple cases of rework for the same assignment may lead to cancellation of the assignment
+Rework/Correction is a part of assignment, so need to be attempted promptly and accordingly. Any minor adjustment/correction that may require minimum effort shall fall under the category of Clause 6. In case the tutor/expert may notice that the rework is additional requirement / out of context of the given assignment, it must be discussed OVER PHONE, simultaneously it must be duly brought to the attention of the team through message on tutor / expert interface account. Failure to
+"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TableLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@color/background"
+            android:elevation="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Issue Type"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Issue in detail"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Unwillingness to rework"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="
+NO PAY, Unwillingness/Inability to correct issue within the initial scope of work
+Unwillingness/Inability to correct issue outside the initial scope of work despite extra payment
+"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="9. MISSING INSTRUCTIONS:"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="In case any assignment has incomplete details to complete it, the Tutor / freelancer must send a query detailing the missing requirement before confirmation of the assignment or within 1 hour of confirming the assignment. Delay in informing the same may lead to cancellation of assignment and application of clause 2 and 4 both."
+
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="10. PLAGIARISM:"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=". Plagiarism is a very serious offense and is an important qualifier before the work can be judged on remaining parameters. Typically expected standards of similarity are up to 10%, however, client may request a stricter similarity requirement."
+
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TableLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@color/background"
+            android:elevation="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Issue Type"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="Issue in detail"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_margin="2dp"
+
+                    android:text="Plagiarism Issue"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="20% - 100% Plagiarism identified using TURNITIN or any service used by student / university / company"
+
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="11.	PAYMENT / INVOICE / RECONCILIATION."
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Payment shall be done when order is approved (POA), you will be required to send invoice to admin for making payment."
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="12. DISPUTE"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Acceptance of any order on the platform will confirm, that you have agreed to our terms and conditions"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="END"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

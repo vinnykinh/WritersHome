@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:clickable="true"
+    android:elevation="1dp"
+    android:background="@android:color/darker_gray"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginLeft="3dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/newlayout"
+            android:background="@color/new_orders">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Order ID"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/orderID_name"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/orderID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/orderID_name"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="#123456"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Subject: Nursing"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/task_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subject"
+                android:layout_alignStart="@+id/subject"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="2dp"
+                android:text="Title: Biological Sciences"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/task_Title"
+                android:layout_alignStart="@+id/task_Title"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="2dp"
+                android:text="Time Left: 9 hrs 17 mins left"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deadline"
+                android:layout_alignStart="@+id/deadline"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="2dp"
+                android:text="Pay: kes 3500"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/apply"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_below="@id/pay"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_apply"
+                android:text="Apply Now"
+                android:layout_alignParentEnd="true"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

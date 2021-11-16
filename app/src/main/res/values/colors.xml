@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_greyish">#F8F8F8</color>
+    <color name="new_orders">#EC7501</color>
+    <color name="background">#F1EFE9</color>
+    <color name="applied_orders">#5471A6</color>
+    <color name="confirmed_orders">#2E4B81</color>
+    <color name="clarification_orders">#928161</color>
+    <color name="Revision_orders">#FF5D5D</color>
+    <color name="background_color">#009688</color>
+
+    <color name="login_page">#EFE7C6</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#FF9D04</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+
+    <array name="rainbow">
+        <item>@color/purple_200</item>
+        <item>@color/purple_500</item>
+        <item>@color/purple_700</item>
+        <item>@color/teal_200</item>
+        <item>@color/black</item>
+        <item>@color/new_orders</item>
+        <item>@color/applied_orders</item>
+        <item>@color/confirmed_orders</item>
+        <item>@color/clarification_orders</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/green</item>
+    </array>
+
+</resources>

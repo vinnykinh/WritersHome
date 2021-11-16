@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:clickable="true"
+    android:elevation="1dp"
+    android:background="@android:color/darker_gray"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:id="@+id/relayout"
+            android:layout_height="match_parent"
+            android:background="@color/applied_orders">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:id="@+id/new_orders_number"/>
+        </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/order_type"
+        android:layout_centerHorizontal="true"
+        android:text="New Orders"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+</RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
